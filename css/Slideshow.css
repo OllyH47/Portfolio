@@ -1,7 +1,7 @@
 {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: auto;
   position: relative;
   margin: auto;
 }
