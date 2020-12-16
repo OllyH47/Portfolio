@@ -1,0 +1,245 @@
+<html>
+
+<head>
+	     <title>Oliver Hodges - Portfolio</title>
+	 
+	 <div class="header" id="myHeader">
+  <h2>Oliver Hodges - 3D Portfolio</h2>
+</div>
+	<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<button onclick="window.location.href='file:///C:/Users/Olly/Documents/cygsdk-20200926/cygsdk/home/Olly/DT_Project_Repo/www/Home.html';" class="button button1">Home</button>
+<button onclick="window.location.href='file:///C:/Users/Olly/Documents/cygsdk-20200926/cygsdk/home/Olly/DT_Project_Repo/www/Portfolio.html';" class="button button2">Portfolio</button>
+<button onclick="window.location.href='file:///C:/Users/Olly/Documents/cygsdk-20200926/cygsdk/home/Olly/DT_Project_Repo/www/Contact.html';" class="button button3">Contact me</button>
+</body>
+</html>
+
+
+
+<body
+	      style="background-color:CadetBlue;">
+<p>Here is a demonstration of some of my work</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Well.jpg" style="width:100%">
+    <div class="text">Well</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Kitchen.jpg" style="width:100%">
+    <div class="text">Kitchen</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Dalek.jpg" style="width:100%">
+    <div class="text">Dalek</div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<style>
+{box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  
+  .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+</body>
+
+
+
+
+
+
+<footer>
+	 <style>
+       .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: CadetBlue;
+           color: white;
+           text-align: center;
+         }
+     </style>
+
+        <div class="footer">
+           <p>© Oliver Hodges</p>
+           <p>All content and trademarks property of their respective owners.</p>
+       </div>
+	 
+</footer>
+
+
+
+</Html>
